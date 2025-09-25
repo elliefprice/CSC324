@@ -62,7 +62,7 @@ function range(start, end, step = 1) {
 https://chatgpt.com/share/68ca219c-f278-8011-9824-84b1d4a4a14f */
 
 // Reversing an Array
-/* Arrays have a reverse mCethod that changes the array by inverting the order in which its elements appear. 
+/* Arrays have a reverse method that changes the array by inverting the order in which its elements appear. 
 For this exercise, write two functions, reverseArray and reverseArrayInPlace. The first, reverseArray, should 
 take an array as its argument and produce a new array that has the same elements in the inverse order. The second, 
 reverseArrayInPlace, should do what the reverse method does: modify the array given as its argument by reversing 
@@ -90,8 +90,16 @@ function reverseArrayInPlace(array) {
     array[i] = array[array.length - 1 - i];
     array[array.length - 1 - i] = old;
   }
-  return array;
+  //return array;
 }
+
+
 
 /* I used ChatGPT to help me with the function and ue the hint from the textbook. Here is my link: 
 https://chatgpt.com/share/68ca255a-9ac4-8011-a587-c982f4008e57 */
+
+
+
+let george = ["George", "Washington", "Hillary", "Clinton", "Donald"];
+reverseArrayInPlace(george);
+console.log(george);

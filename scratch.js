@@ -20,3 +20,22 @@ console.log(isEven(-1));
 // → ??
 
 
+
+class Group {
+  constructor() {
+    this.members = [];
+  }
+  add(x) {
+    if(!this.members.includes(x)) {
+      this.members.push(x)
+    }
+  }
+}
+
+let myGroup = new Group;
+console.log(myGroup);
+myGroup.add(3);
+console.log(myGroup);
+
+
+
