@@ -34,4 +34,40 @@
   }
  ]
 
- // complete with code to select and populate the table
+ const target = document.getElementById("bhangra");
+    const artistTable = makeTable(artists);
+    target.appendChild(artistTable);
+    
+    function makeTable(arr) {
+      const table = document.createElement("table");
+      const header = makeTableHeader(arr[0]);
+      table.appendChild(header);
+      for (let obj of arr) {
+        const row = makeTableRow(obj);
+        table.appendChild(row);
+      }
+      return table;
+    }
+
+    function makeTableHeader(obj) {
+      const tr = document.createElement("tr");
+      for (let columnName of Object.keys(obj)) {
+        const th = document.createElement("th");
+        const data = columnName;
+        th.innerText = data;
+        tr.appendChild(th);
+      }
+      return tr;
+    }
+
+    function makeTableRow(obj) {
+      console.log(obj);
+      const row = document.createElement("tr");
+      for (let columnName of Object.keys(obj)) {
+        const data = document.createElement("td");
+        console.log(obj[columnName]);
+        data.innerText = obj[columnName];
+        row.appendChild(data);
+      }
+      return row;
+    }
