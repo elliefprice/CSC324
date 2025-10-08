@@ -17,7 +17,7 @@
     birthYear: 1981,
     link: "https://www.youtube.com/watch?v=1jAc_-FVjdI"
   },
-  {
+  {gi
     name: "Sukhbir Singh",
     birthYear: 1969,
     link: "https://www.youtube.com/watch?v=HiprNF9Jad0"
@@ -71,3 +71,20 @@
       }
       return row;
     }
+
+
+    /* I used the "Mountains" example and inspected the code to imput the values for the new table. I was having issues
+     trying to use "table.innerHTML" from the "Mountains 2" eample and it was causing my HTML page to not render correctly.
+     ChatGPT was not much help and was giving me solutions I didnt understand or had never seen before in the textbook. 
+     This is what I attempted to use for adding the hyperlinks:
+
+     function makeTable(arr) {
+      const table = document.createElement("table");
+      const header = makeTableHeader(arr[0]);
+      for (let obj of arr) {
+      table.innerHTML + makeTableRow(obj);
+      console.log(table.innerHTML);
+      }
+      return table;
+    }
+    */
