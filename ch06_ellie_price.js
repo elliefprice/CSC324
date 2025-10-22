@@ -54,4 +54,4 @@ console.log(group.has(10));
 /* I used the textbook problems from the "Rabbit" examples and the "Temperature" examples to help me with these problems.
 I also used the automatic AI help in JavaScript that automatically suggests a format for your code to follow.   
 I also used ChatGPT to help me with the "static from" method and the "delete" method. 
-Here is my link to ChatGPT: https://chatgpt.com/share/68dcbe3e-022c-8011-9355-856014e840e4 */   
+Here is my link to ChatGPT: https://chatgpt.com/share/68dcbe3e-022c-8011-9355-856014e840e4 */   git add --all

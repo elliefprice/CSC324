@@ -80,8 +80,3 @@ for (let y = 0; y < size; y++) {
 }
 
 console.log(board);
-
-git init
-git add --all
-git commit -m "chapter two homework sloved"
-git push

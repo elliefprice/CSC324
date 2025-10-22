@@ -9,7 +9,7 @@ Your code here.
  → [1, 2, 3, 4, 5, 6]*/
 
 let arrays = [[1, 2, 3], [4, 5], [6]];
-console.log(arrays.reduce((flat, current) => flat.concat(current), []));
+console.log(arrays.reduce((flat, current) => flat.concat(current), []));git git 
 
 
  /* I used the textbook and the automatic AI help in JavaScript 
